@@ -27,7 +27,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  * *********************************************************************************************
  */
-package org.sola.common.messaging;
+package org.sola.cs.common.messaging;
 
 public class ClientMessage {
 

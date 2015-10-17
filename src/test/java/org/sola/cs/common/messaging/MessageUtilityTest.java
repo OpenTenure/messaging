@@ -29,8 +29,14 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.sola.common.messaging;
+package org.sola.cs.common.messaging;
 
+import org.sola.cs.common.messaging.GisMessage;
+import org.sola.cs.common.messaging.ServiceMessage;
+import org.sola.cs.common.messaging.LocalizedMessage;
+import org.sola.cs.common.messaging.MessageResponder;
+import org.sola.cs.common.messaging.MessageUtility;
+import org.sola.cs.common.messaging.ClientMessage;
 import java.lang.reflect.Field;
 import java.util.Arrays;
 import org.junit.Ignore;

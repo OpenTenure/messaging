@@ -25,7 +25,7 @@
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  * *********************************************************************************************
  */
-package org.sola.common.messaging;
+package org.sola.cs.common.messaging;
 
 /**
  * Contains the localized details for the message

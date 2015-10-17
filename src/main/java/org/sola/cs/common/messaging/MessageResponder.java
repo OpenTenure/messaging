@@ -29,7 +29,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.sola.common.messaging;
+package org.sola.cs.common.messaging;
 
 /**
  * Provides an interface that can be used for testing purposes to suppress the message dialog and
