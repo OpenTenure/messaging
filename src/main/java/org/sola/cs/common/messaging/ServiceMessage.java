@@ -328,6 +328,12 @@ public class ServiceMessage {
     public static final String OT_WS_CLAIM_SHARE_ZERO_PERCENTAGE = OT_WS + "065";
     /** ser_ot066 - Claim can not be reverted, because of it's state. */
     public static final String OT_WS_CLAIM_CANT_REVERT = OT_WS + "066";
+    /** ser_ot067 - Failed to calculate best scale for the map image. */
+    public static final String OT_WS_CLAIM_FAILED_TO_GET_MAP_SCALE = OT_WS + "067";
+    /** ser_ot068 - Failed to generate map image. */
+    public static final String OT_WS_CLAIM_FAILED_TO_GENERATE_MAP = OT_WS + "068";
+    /** ser_ot069 - Failed to create map. */
+    public static final String OT_WS_CLAIM_FAILED_TO_CREATE_MAP = OT_WS + "069";
     
     /** serredact001 - Restricted. */
     public static final String REDACT_RESTRICTED = REDACT + "001";
