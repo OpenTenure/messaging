@@ -334,6 +334,24 @@ public class ServiceMessage {
     public static final String OT_WS_CLAIM_FAILED_TO_GENERATE_MAP = OT_WS + "068";
     /** ser_ot069 - Failed to create map. */
     public static final String OT_WS_CLAIM_FAILED_TO_CREATE_MAP = OT_WS + "069";
+   /** ser_ot070 - Certificate can be printed only for moderated claims and by users with PrintCertificate role. */
+    public static final String OT_WS_CLAIM_CERT_PRINT_NOT_ALLOWED = OT_WS + "070";
+    /** ser_ot071 - Claim can not be issued. It must have Moderated status. */
+    public static final String OT_WS_CLAIM_CANT_ISSUE = OT_WS + "071";
+    /** ser_ot072 - Claim can not be marked as issued. The following documents must be attached first - "{0}". */
+    public static final String OT_WS_CLAIM_CANT_ISSUE_FOUND_MISSING_DOCS = OT_WS + "072";
+    /** ser_ot073 - Document attachment must be provided. */
+    public static final String OT_WS_CLAIM_DOCUMENT_ATTACHMENT_MISSING = OT_WS + "073";
+    /** ser_ot074 - Claim can not be transferred, because of it's state. */
+    public static final String OT_WS_CLAIM_CANT_TRANSFER = OT_WS + "074";
+    /** ser_ot075 - Claim "{0}" must be with Moderated status */
+    public static final String OT_WS_CLAIM_MUST_BE_MODERATED = OT_WS + "075";
+    /** ser_ot076 - Claim "{0}" has registered restrictions. They must be terminated first. */
+    public static final String OT_WS_CLAIM_HAS_RESTRICTIONS = OT_WS + "076";
+    /** ser_ot077 - For claims merge, there must be at least 2 claims to merge and 1 new claim as a result of merge. */
+    public static final String OT_WS_CLAIM_MERGE_WRONG_COUNT = OT_WS + "077";
+    /** ser_ot078 - For claims split, there must be 1 claim to split and at least 2 new claims as a result of split. */
+    public static final String OT_WS_CLAIM_SPLIT_WRONG_COUNT = OT_WS + "078";
     
     /** serredact001 - Restricted. */
     public static final String REDACT_RESTRICTED = REDACT + "001";
