@@ -353,6 +353,19 @@ public class ServiceMessage {
     /** ser_ot078 - For claims split, there must be 1 claim to split and at least 2 new claims as a result of split. */
     public static final String OT_WS_CLAIM_SPLIT_WRONG_COUNT = OT_WS + "078";
     
+    /** ser_ot079 - Boundary "{0}" is approved and cannot be modified. */
+    public static final String OT_WS_BOUNDARY_APPROVED = OT_WS + "079";
+    /** ser_ot080 - Name must be provided. */
+    public static final String OT_WS_BOUNDARY_NAME_EMPTY = OT_WS + "080";
+    /** ser_ot081 - Type must be provided. */
+    public static final String OT_WS_BOUNDARY_TYPE_EMPTY = OT_WS + "081";
+    /** ser_ot082 - Parent boundary cannot be the same as current boundary. */
+    public static final String OT_WS_BOUNDARY_SELF_PARENT = OT_WS + "082";
+    /** ser_ot083 - Selected parent boundary is a child of the current boundary. */
+    public static final String OT_WS_BOUNDARY_CHILD_PARENT = OT_WS + "083";
+    /** ser_ot084 - Boundary has child boundaries, delete them first. */
+    public static final String OT_WS_BOUNDARY_HAS_CHILD = OT_WS + "084";
+    
     /** serredact001 - Restricted. */
     public static final String REDACT_RESTRICTED = REDACT + "001";
     /** serredact002 - Not Applicable. */
@@ -361,5 +374,6 @@ public class ServiceMessage {
     public static final String REDACT_DATE_OF_BIRTH = REDACT + "003";
     /** serredact004 - MMM d, yyyy HH:mm */
     public static final String REDACT_DATE_FORMAT = REDACT + "004";
+    
 }
 
