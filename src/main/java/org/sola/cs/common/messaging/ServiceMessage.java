@@ -366,6 +366,9 @@ public class ServiceMessage {
     /** ser_ot084 - Boundary has child boundaries, delete them first. */
     public static final String OT_WS_BOUNDARY_HAS_CHILD = OT_WS + "084";
     
+    /** ser_ot085 - Boundary already exists and cannot be re-submitted. */
+    public static final String OT_WS_BOUNDARY_EXISTS = OT_WS + "085";
+    
     /** serredact001 - Restricted. */
     public static final String REDACT_RESTRICTED = REDACT + "001";
     /** serredact002 - Not Applicable. */
