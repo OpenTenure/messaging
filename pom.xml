@@ -5,12 +5,12 @@
     <parent>
         <artifactId>sola-cs-main</artifactId>
         <groupId>org.sola.cs</groupId>
-        <version>1712a</version>
+        <version>2020a</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
     <groupId>org.sola.cs.common</groupId>
     <artifactId>sola-cs-messaging</artifactId>
-    <version>1712a</version>
+    <version>2020a</version>
     <packaging>jar</packaging>
 
     <name>Common CS Messaging</name>
