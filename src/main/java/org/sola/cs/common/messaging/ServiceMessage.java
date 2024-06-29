@@ -86,6 +86,8 @@ public class ServiceMessage {
     public static final String GENERAL_WRONG_FILE_SIZE = GENERAL + "008";
     /** sergnrl009 - MD5 is not matching. */
     public static final String GENERAL_WRONG_MD5 = GENERAL + "009";
+    /** sergnrl010 - Project is not accessible. */
+    public static final String GENERAL_PROJECT_NO_ACCESSIBLE = GENERAL + "010";
     
     // Exception Messages
     /** serexcp001 - An error occurred while logging an exception. Error details: {0} */
@@ -368,6 +370,9 @@ public class ServiceMessage {
     
     /** ser_ot085 - Boundary already exists and cannot be re-submitted. */
     public static final String OT_WS_BOUNDARY_EXISTS = OT_WS + "085";
+    
+    /** ser_ot086 - You don't have access to the claim. */
+    public static final String OT_WS_CLAIM_ACCESS_FORBIDDEN = OT_WS + "086";
     
     /** serredact001 - Restricted. */
     public static final String REDACT_RESTRICTED = REDACT + "001";
